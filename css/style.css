@@ -137,10 +137,11 @@ h1 span {
   color: #222;
   /* border:1px solid red; */
   margin-bottom:50px;
+  font-size: 14px;
   /* border-bottom:1px dashed #222; */
 }
 
-.timeline-content h5 {
+.offcanvas-body h5, .timeline-content h5 {
   margin-top: 5px;
   /* margin-bottom: 5px; */
   font-size: 15px;
@@ -148,8 +149,11 @@ h1 span {
   padding:0;
   margin:0;
 }
-
-.timeline-content span {
+.timeline-content ul  {
+  margin-top: 10px;
+  
+}
+.offcanvas-body span, .timeline-content span {
   font-size: 12px;
   color: #222;
   padding:0;
@@ -178,7 +182,11 @@ h1 span {
   color:#222;
   font-family: roboto;
 }
+.offcanvas-body {
 
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
 
 @media screen and (max-width: 768px) {
   .wrapper:before {
